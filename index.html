@@ -2616,6 +2616,19 @@ body.light .project {
     }
 }
 
+@media(max-width:900px) and (min-width:761px) {
+    .about-grid {
+        grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr);
+        gap: 32px;
+    }
+}
+
+@media(max-width:760px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 @media(max-width:620px) {
     .projects {
         grid-template-columns: 1fr;
